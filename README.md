@@ -23,7 +23,7 @@ Configure the root of your repository with the following files and directories. 
   * create a `test` script for running tests
 * **lib/** - contains module definitions
 * **data/** - contains the text files used by the program
-* **\_\_test\_\_/** - contains unit tests (or **test/**)
+* **\_\_test\_\_/** - contains unit tests
 
 ## Testing
 ##### File Reader Module Tests

@@ -20,6 +20,7 @@
   "homepage": "https://github.com/tamarushin/03-asynchronous-callbacks#readme",
   "dependencies": {
     "eslint": "^4.19.1",
-    "jest": "^22.4.4"
+    "jest": "^22.4.4",
+    "npm": "^6.1.0"
   }
 }

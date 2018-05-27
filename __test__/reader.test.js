@@ -28,7 +28,7 @@ describe('Reader Module', () => {
     });
   });
 
-it('should callback with file contents of multiple files in order', (done) => {
+  it('should callback with file contents of multiple files in order', (done) => {
 
     let paths = [];
 
@@ -52,7 +52,7 @@ it('should callback with file contents of multiple files in order', (done) => {
       expected = 'some text about orangutans';
       actual = contents[2];
 
-      expect(err).toBeNull();;
+      expect(err).toBeNull();
 
       done();
     });

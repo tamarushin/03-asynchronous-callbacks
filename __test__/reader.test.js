@@ -40,19 +40,23 @@ describe('Reader Module', () => {
     let expected, actual;
 
     read(paths, (err, contents) => {
+      
+
+      // expect(contents).toEqual([]);
       expect(err).toBeNull();
       expected = true;
-      actual = contents[0].startsWith('pitbulls');
-
-      expect(err).toBeNull();
+      actual = contents[0].startsWith('pitbulls');//?
+      expect(actual).toBe(expected);
+      
       expected = 'words about elephants';
       actual = contents[1];
+      expect(actual).toBe(expected);
 
-      expect(err).toBeNull();
+      
       expected = 'some text about orangutans';
       actual = contents[2];
+      expect(actual).toBe(expected);
 
-      expect(err).toBeNull();
 
       done();
     });
